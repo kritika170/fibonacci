@@ -1,0 +1,10 @@
+a=int(input("Enter a number upto where you want the fibonacci series: "))
+i=0
+j=1
+k=0
+while k<a:
+  print(i)
+  f=i+j
+  i=j
+  j=f
+  k=k+1
